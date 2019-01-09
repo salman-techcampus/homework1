@@ -15,6 +15,14 @@ hr{
 	font-weight: bold;
 	color: darkblue;
 	text-shadow: 1px 1px lightblue;
+	margin-bottom: 25px;
+}
+
+.titleS1{
+	font-size: 26px;
+	font-weight: bold;
+	color: blue;
+	text-shadow: 1px 1px lightblue;
 	margin-bottom: 20px;
 }
 
@@ -77,4 +85,31 @@ img{
 
 .imgArea{
 	margin-bottom: 50px;
+}
+
+.form{
+	width: 200px;	
+	text-align: center;
+	font-size: 20px;
+	height: auto;
+	color: black;
+	font-weight: bold;
+	border-radius: 20px;
+}
+
+.form:focus{
+	background: lightgray;
+}
+
+.loginButton:hover{
+	background: lightblue;
+}
+
+.loginButton:focus{
+	background: lightgreen;
+}
+
+.input{
+	font-size: 28px;
+	font-weight: 20px;
 }
